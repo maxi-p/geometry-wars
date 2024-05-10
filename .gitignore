@@ -1,0 +1,7 @@
+build/
+*.o
+build.sh
+imgui.ini
+sfml-imgui.txt
+.vscode/
+.DS_Store
