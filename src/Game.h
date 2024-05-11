@@ -27,6 +27,12 @@ class Game
     bool                        m_paused                = false; // whether we update game logic
     bool                        m_running               = true;  // whether the game is runnig
     std::shared_ptr<Entity>     m_player;
+    bool m_movement = true;
+    bool m_lifespan = true;
+    bool m_collisions = true;
+    bool m_spawning = true;
+    bool m_GUI = true;
+    bool m_rendering = true;
 
 
 public:

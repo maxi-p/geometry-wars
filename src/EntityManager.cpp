@@ -1,4 +1,5 @@
 #include "EntityManager.h"
+#include <iostream>
 
 EntityManager::EntityManager()
 {
@@ -6,7 +7,7 @@ EntityManager::EntityManager()
 }
 
 void EntityManager::update()
-{
+{   
     // adding all pending elements
     for (auto e : m_entitiesToAdd)
     {

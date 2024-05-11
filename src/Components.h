@@ -37,6 +37,14 @@ public:
         : radius(r) {}
 };
 
+class CNoChildren
+{
+public:
+    bool noChildren = true;
+    CNoChildren(bool nc)
+        : noChildren(nc) {}
+};
+
 class CScore
 {
 public:
